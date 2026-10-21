@@ -1,0 +1,16 @@
+# Netlify headers. Harmless on other hosts (served as a plain file).
+
+# The service worker must never be served stale, or devices keep an old
+# offline copy and never see a new CACHE version.
+/sw.js
+  Cache-Control: no-cache, no-store, must-revalidate
+
+/manifest.webmanifest
+  Content-Type: application/manifest+json; charset=utf-8
+  Cache-Control: no-cache
+
+# Figures and fonts are content-stable; let the browser keep them.
+/assets/*
+  Cache-Control: public, max-age=31536000
+/fonts/*
+  Cache-Control: public, max-age=31536000
