@@ -28,8 +28,8 @@ works with no internet (airplane mode).
    works offline from the home-screen icon.
 
 4. Updating the guide later
-   Replace index.html, and in sw.js change CACHE = 'sbim-v5-8-1' to a new value
-   (e.g. 'sbim-v5-8-2'). Devices pick up the new copy next time they open the
+   Replace index.html, and in sw.js change CACHE = 'sbim-v5-8-2' to a new value
+   (e.g. 'sbim-v5-8-3'). Devices pick up the new copy next time they open the
    app while online. If you add or remove figures in assets/ or fonts/, update
    the MEDIA list in sw.js to match, or they will not be saved for offline use.
 
