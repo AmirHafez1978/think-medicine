@@ -5,7 +5,7 @@
    SHELL is small and must all succeed, so installation never fails.
    MEDIA (figures + fonts, ~15 MB) is filled in afterwards, in small batches,
    so a slow or flaky connection cannot abort the install. */
-const CACHE = 'sbim-v5-7-3';
+const CACHE = 'sbim-v5-8-1';
 
 const SHELL = [
   './',

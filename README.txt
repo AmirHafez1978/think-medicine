@@ -13,15 +13,23 @@ works with no internet (airplane mode).
    - Or Netlify Drop (app.netlify.com/drop): drag this whole folder onto the page.
    Keep the files together in the same folder. Do not rename them.
 
-2. Install on a phone or tablet (students do this once, while online)
+2. How students read it
+   The app opens on a home screen of 50 subject cards, grouped by block with
+   an icon per block. Tapping a card opens that subject on its own page, so
+   each page is a few screens long instead of one 400,000-pixel scroll.
+   Previous / Home / Next sit at the foot of every subject, Contents and
+   Search still reach the whole guide, and the arrow keys page back and forth
+   on a keyboard. Printing still produces the entire guide in one go.
+
+3. Install on a phone or tablet (students do this once, while online)
    - iPhone / iPad (Safari): open the link → Share → Add to Home Screen.
    - Android (Chrome): open the link → ⋮ menu → Install app / Add to Home screen.
    Wait for "Ready offline" in the header line (tap ? for details), then it
    works offline from the home-screen icon.
 
-3. Updating the guide later
-   Replace index.html, and in sw.js change CACHE = 'sbim-v5-7-3' to a new value
-   (e.g. 'sbim-v5-7-4'). Devices pick up the new copy next time they open the
+4. Updating the guide later
+   Replace index.html, and in sw.js change CACHE = 'sbim-v5-8-1' to a new value
+   (e.g. 'sbim-v5-8-2'). Devices pick up the new copy next time they open the
    app while online. If you add or remove figures in assets/ or fonts/, update
    the MEDIA list in sw.js to match, or they will not be saved for offline use.
 
